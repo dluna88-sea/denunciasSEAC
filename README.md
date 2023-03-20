@@ -1,13 +1,13 @@
-# Sistema Estatal Anticorrupción
+# Sistema con Vue3 y Firebase
 
-Sistema para gestionar apartado de transparencia del sitio web.
+Sistema básico desarrollado con Vue3 (Vite)
+
+Vue-Router, Pinia, Firebase y UI con Bootstrap 5.
 
 ## Install Commands:
 
 
 ```bash
-  git clone https://github.com/dluna88-sea/seac.git
-  cd seac
   npm install
 ```
 

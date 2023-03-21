@@ -1,13 +1,19 @@
 <script setup>
 import router from '../router';
+import { auth } from '../firebase';
 import { currentUserStore } from '../stores/currentUser';
 const currentUser = currentUserStore();
+
+
 
 if(currentUser.nombre == undefined || currentUser.nombre == null){
     //router.push('/profile');
 }
 
-
+async function getDatos(){
+    if(currentUser.id == null) await currentUser.getDatos();
+}
+getDatos();
 </script>
 
 <template>

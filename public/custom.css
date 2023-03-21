@@ -27,3 +27,7 @@ fw-200{ font-weight: 200; }
 .cursorHand{
     cursor: pointer;
 }
+.form-control{
+    border-radius: 0px !important;
+    padding: 10px;
+}

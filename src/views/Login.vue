@@ -10,7 +10,7 @@ const doLogin = async() => {
     try {
         
         await currentUser.login(email.value.trim(),password.value.trim()).then(() => {
-            if(currentUser.is.success){ location.reload(); }
+            //if(currentUser.is.success){ location.reload(); }
         });
 
     } catch (e) {

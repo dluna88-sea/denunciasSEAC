@@ -3,15 +3,15 @@ import { getFirestore } from "firebase/firestore/lite";
 import { getAuth } from "firebase/auth";
 
 /**
- * Base de datos de pruebas:
+ * Base de datos:
  */
 const firebaseConfig = {
-  apiKey: "AIzaSyDY3upm3nITv0PBwouNY3jcskjcvt1wYIo",
-  authDomain: "testvue3fs.firebaseapp.com",
-  projectId: "testvue3fs",
-  storageBucket: "testvue3fs.appspot.com",
-  messagingSenderId: "977270454385",
-  appId: "1:977270454385:web:55b2ea8f0be002413d83d0"
+  apiKey: "AIzaSyDDmD0uUJYXCDAlOiawpWtYgylfE-j-ebQ",
+  authDomain: "denuncias-seac.firebaseapp.com",
+  projectId: "denuncias-seac",
+  storageBucket: "denuncias-seac.appspot.com",
+  messagingSenderId: "836969377418",
+  appId: "1:836969377418:web:a409ae364a940d63ad4773"
 };
 
 initializeApp(firebaseConfig);

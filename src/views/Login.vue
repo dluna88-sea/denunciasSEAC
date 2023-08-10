@@ -23,9 +23,9 @@ const doLogin = async() => {
     <div class="container text-center mainwrapper">
         <main class="form-signin w-100 m-auto">
             <form @submit.prevent="doLogin">
+                <h1 class="h3 mb-3">Sistema de gestión de denuncias</h1>
                 <img class="mb-4" src="/logo.png" width="180" height="180" alt="SEAC">
-                <h1 class="h3 mb-3">Iniciar Sesión</h1>
-
+                <h3 class="h5">Iniciar Sesión</h3>
                 <div class="form-floating">
                     <input v-model="email" type="email" class="form-control" id="floatingInput" placeholder="Escriba su dirección de correo electrónico">
                     <label for="floatingInput"><i class="bi bi-envelope-fill"></i> &nbsp; Correo Electrónico</label>
